@@ -1,0 +1,20 @@
+.plan-container {
+    width: 100vw;
+    min-height: 100vh;
+    display: flex;
+    padding: 2% 5%;
+    flex-direction: column;
+    justify-content: space-between;
+}
+
+.day {
+    width: 100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.day-content {
+    width: 55%;
+    font-size: 22px;
+}

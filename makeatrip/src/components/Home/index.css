@@ -1,0 +1,133 @@
+.home-container {
+    width: 100%;
+    min-height: 100vh;
+    display: flex;
+    flex-direction: column;
+    padding: 0px;
+}
+
+.home {
+    width: 100%;
+    height: 80vh;
+    background-image: url('https://res.cloudinary.com/dzjuhiwxw/image/upload/v1690991874/download_lwxwnf.jpg');
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    flex-direction: column;
+    background-color: #000;
+    opacity: 0.8;
+}
+
+.home-content {
+    width: 45%;
+    padding: 5%;
+    color: #ff8c00;
+}
+
+.plan-btn {
+    background-color: brown;
+    border-style: none;
+    color: white;
+    padding: 15px 25px;
+    outline: none;
+    cursor: pointer;
+    border-radius: 10px;
+}
+
+.goto-plan {
+    color: #fff!important;
+}
+
+.offer-details {
+    width: 100%;
+    padding:  0px 5%;
+    display: flex;
+    align-items: center ;
+    
+}
+
+.special-offer {
+    align-self: center;
+    margin-top: 1%;
+    width: 150px;
+    height: 150px;
+    background-image: radial-gradient(#ff6161, #7676ed, #9bfe9b, #fec966, #87ceeb);
+    box-shadow: 4px 4px 16px 4px;
+    border: 2px solid #131313;
+    border-radius: 50%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    font-size: 18px;
+    font-weight: bold;
+    padding: 10px;
+    text-align: center;
+
+}
+
+.offer-text {
+    color: #141415;
+    font-weight: 800;
+    background-clip: text;
+}
+
+.scrolling-text-container {
+    overflow: hidden;
+    width: 92%;
+}
+
+.scrolling-text {
+    display: inline-block;
+    animation: scrollLeft 15s linear infinite;
+    font-size: 16px;
+    font-weight: 700;
+    color: #ff6161;
+}
+
+@keyframes scrollLeft {
+    from {
+        transform: translateX(100%);
+    }
+    to {
+        transform: translateX(-100%);
+    }
+}
+
+
+.overview-container {
+    width: 100%;
+    padding: 5%;
+    height: fit-content;
+    display: flex;
+    justify-content: space-between;
+}
+
+.overview-content {
+    width:55%;
+    height: 100%;
+    
+}
+
+.content-img {
+    width: 40%;
+    height: fit-content;
+}
+
+.booknow-btn {
+    padding: 10px 20px;
+    background-color: #ff8c00;
+    border-style: none;
+    color: #fff;
+    cursor: pointer;
+    transition:.3s ease all ;
+    outline: none;
+    font-size: 14px;
+    font-weight: 700;
+    width: 10%;
+    align-self: center;
+    border-radius: 10px;
+    margin-top: 5%;
+    margin-bottom: 5%;
+    box-shadow: 4px 2px 16px 0px;
+}
